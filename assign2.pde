@@ -106,15 +106,14 @@ void draw(){
           //basic settings
           image(bgImg,0,0);//bg
           fill(124,204,25);
-          strokeWeight(0);
+          //strokeWeight(0);
+          noStroke();
           rect(0,145,640,15);//grass
           image(soilImg,0,160);
           //soil
-          noStroke();
-          fill(253,184,19);
-          //grass
           
           strokeWeight(5);
+          fill(253,184,19);
           stroke(255,255,0);
           ellipse(590,50,120,120);
           //sun
